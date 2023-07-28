@@ -29,6 +29,16 @@ footer img {
   width: 3%;
 }
 
+.bottom-right-image {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 150px; /* Adjust the width of the image as needed */
+  height: auto;
+  cursor: pointer;
+  z-index: 9999; /* Set a high z-index value to make the image appear on top */
+}
+
 /* Navigation Styles */
 nav {
   background-color: #444;
@@ -207,9 +217,17 @@ video {
   align-items: center;
 }
 
-.right-column img {
-  width: 90%;
+.left-column img {
+  width: 100%;
   height: 200px; /* Set a fixed height for the images */
+  object-fit: contain;
+  margin-bottom: 0px; /* Add some space between images */
+}
+
+/* Add the following styles for the images in the right column */
+.right-column img {
+  width: 100%;
+  height: 200px; /* Set the same fixed height for the images */
   object-fit: contain;
   margin-bottom: 0px; /* Add some space between images */
 }
