@@ -1,0 +1,411 @@
+/* Global Styles */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #222;
+  color: #fff;
+  font-family: "futura-pt", sans-serif;
+}
+
+/* Header Styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-family: "ff-folk-rough", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 56px;
+}
+
+footer img {
+  width: 3%;
+}
+
+/* Navigation Styles */
+nav {
+  background-color: #444;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-family: "ff-folk-rough", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 31px;
+}
+
+nav ul li a.active {
+  color: #ffffff; /* Replace with the color you want for the active link */
+}
+
+/* Section Styles */
+section {
+  padding: 20px;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #444;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  margin-top: auto; /* Pushes the footer to the bottom */
+  width: 100%;
+}
+
+/* New Styles for Start Page */
+video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+}
+
+/* Video Section */
+.video-section {
+  position: relative;
+  width: 100%;
+  height: 450px; /* Adjust the height as needed */
+  overflow: hidden; /* Hide any overflowing content */
+  z-index: -1; /* Set a negative z-index to move it behind other elements */
+}
+
+.video-section video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the video horizontally and vertically */
+  width: auto;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ... (previous CSS rules) ... */
+
+/* New Styles for Video Section */
+.tracks-video-section {
+  position: relative;
+  width: 100%;
+  height: 450px;
+  overflow: hidden;
+}
+
+.tracks-video-section video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 180%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+/* New Styles for Video Section */
+.tracks-video-section-norm {
+  position: relative;
+  width: 100%;
+  height: 450px;
+  overflow: hidden;
+}
+
+.tracks-video-section-norm video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+
+/* New Styles for Project Info Section */
+.tracks-project-info {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+  text-align: left; /* Center-align the content in the project info section */
+  font-family: "futura-pt", sans-serif;
+
+}
+
+
+
+.tracks-project-title {
+  font-size: 76px;
+  margin-top: 0;
+  font-family: "ff-folk-rough", sans-serif;
+}
+
+.tracks-project-roles {
+  font-size: 24px;
+  font-family: "ff-folk-rough", sans-serif;
+  font-weight: bold;
+}
+
+.tracks-project-description {
+  font-size: 18px;
+  text-align: justify;
+  font-family: "futura-pt", sans-serif;
+}
+
+.tracks-project-link {
+  text-align: center;
+}
+
+/* New Styles for Split Section */
+.split-section-col {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.split-section-col .left-column,
+.split-section-col .right-column {
+  flex-basis: 48%;
+}
+
+.split-section-col h3 {
+  font-size: 24px;
+}
+
+.split-section-col p {
+  font-size: 18px;
+  text-align: justify;
+}
+
+/* Center-align everything in the right column */
+.right-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right-column img {
+  width: 90%;
+  height: 200px; /* Set a fixed height for the images */
+  object-fit: contain;
+  margin-bottom: 0px; /* Add some space between images */
+}
+
+.right-column em {
+  font-size: 16px;
+  font-family: "ff-folk-rough", sans-serif; /* Replace "Your-Font-Name" with the actual name of your desired font */
+  /* Add any other styles you want for the flavor text */
+}
+
+
+.play-section-button {
+  display: inline-block;
+  color: #ff4949;
+  background-color: #522626;
+  padding:  10px;
+  text-decoration: none;
+  font-size:24px;
+  font-family: "ff-folk-rough", sans-serif;
+}
+
+.about-section-button {
+  display: inline-block;
+  color: #5549ff;
+  background-color: #4b2652;
+  padding:  10px;
+  text-decoration: none;
+  font-size:24px;
+  font-family: "ff-folk-rough", sans-serif;
+}
+
+/* ... (existing CSS styles) ... */
+/* ... (existing CSS styles) ... */
+
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.enter-button {
+  display: inline-block;
+  padding: 10px 20px;
+  /*background-color: #333;*/
+  color: #fff;
+  text-decoration: none;
+  font-size: 50px;
+}
+
+.project-grid {
+  display: flex;
+  flex-direction: row; /* Display the items from left to right */
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.custom-justification {
+  justify-content: space-between;
+}
+
+.project-link {
+  flex: 0 0 calc(19% - 25px); /* Adjust the width of each project link as needed */
+  margin: 0 12.5px; /* Add spacing between project links */
+  position: relative; /* Create a positioning context for the title */
+  margin-bottom: 40px;
+}
+
+.project-link img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  transition: filter 0.3s ease; /* Add transition effect */
+}
+
+.project-link:hover img {
+  filter: brightness(30%); /* Darken the image on hover */
+}
+
+.project-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the text horizontally and vertically */
+  background-color: rgba(0, 0, 0, 0.8); /* Adjust the opacity value as desired */
+  color: #fff; /* Set the title color to white */
+  font-family: "ff-folk-rough", sans-serif; /* Set the title font */
+  padding: 10px;
+  font-size: 24px;
+  opacity: 0; /* Initially hide the title */
+  transition: opacity 1.5s ease; /* Add transition effect */
+  text-align: center; /* Center-align the text */
+}
+
+.project-link:hover .project-title {
+  opacity: 1; /* Show the title on hover */
+}
+
+.header-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Scrollbar Styles */
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #555;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 6px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background-color: #666;
+}
+
+.enter-image {
+  width: 900px; /* Adjust the width of the image as needed */
+  height: auto;
+  cursor: pointer;
+  /* Add any additional styling you want for the image, such as margin, padding, etc. */
+}
+
+/* Set the width of the body to 100vw to ensure it fits within the viewport */
+body {
+  width: 100vw;
+  overflow-x: hidden; /* Hide any horizontal overflow */
+  overflow-y: auto; /* Enable vertical overflow */
+}
+
+/* Project Sections */
+.split-section {
+  flex-basis: 30%;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #999;
+  text-align: center;
+  border: 3px solid #0000;
+}
+
+.split-section h2 {
+  font-family: "ff-folk-rough", sans-serif;
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #000; /* Changed title color to black */
+  text-align: center; /* Center the section titles */
+}
+
+.split-section p {
+  color: #000; /* Set the text color to black */
+}
+
+.section-button {
+  display: inline-block;
+  color: #ffff;
+  background-color: #333;
+  padding:  20px;
+  text-decoration: none;
+  font-family: "ff-folk-rough", sans-serif;
+}
+
+/* Fade-in Animation for Body */
+.fade-in {
+  opacity: 0;
+  animation: fadeInAnimation ease 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Fade-out Animation for Body */
+.fade-out {
+  opacity: 1;
+  animation: fadeOutAnimation ease 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeOutAnimation {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
